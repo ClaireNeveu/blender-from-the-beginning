@@ -1,8 +1,18 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Blender From The Beginning
+description: A comprehensive starter guide to blender.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+defaults:
+  - scope:
+      path: "pages" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+ - vendor
+
+url: http://www.claireneveu.com/blender-from-the-beginning/
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
